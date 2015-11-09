@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/repLayout"
+                android:background="#806C6C6C">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Representative Name"
+        android:id="@+id/repName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Party"
+        android:id="@+id/repParty"
+        android:layout_alignBottom="@+id/repName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Gender"
+        android:id="@+id/repGender"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/repName"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Birthday"
+        android:id="@+id/repBirthday"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/repGender"
+        android:layout_alignLeft="@+id/repGender"
+        android:layout_alignStart="@+id/repGender"
+        android:layout_marginTop="27dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Phone"
+        android:id="@+id/repPhone"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/repBirthday"
+        android:layout_toRightOf="@+id/repName"
+        android:layout_toEndOf="@+id/repName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Address"
+        android:id="@+id/repOffice"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_alignTop="@+id/repBirthday"
+        android:layout_alignLeft="@+id/repPhone"
+        android:layout_alignStart="@+id/repPhone"/>
+
+</RelativeLayout>

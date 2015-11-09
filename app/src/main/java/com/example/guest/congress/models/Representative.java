@@ -1,4 +1,4 @@
-package com.example.guest.congress;
+package com.example.guest.congress.models;
 
 /**
  * Created by Guest on 11/9/15.

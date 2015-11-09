@@ -23,4 +23,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])//java archive files
     compile 'com.android.support:appcompat-v7:23.1.0'//latest version of android support library
     compile 'com.squareup.okhttp:okhttp:2.5.0'//gets specific version from repository
+    compile 'com.jakewharton:butterknife:7.0.1'//butterknife
 }

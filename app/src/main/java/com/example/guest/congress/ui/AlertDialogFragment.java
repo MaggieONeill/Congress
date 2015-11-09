@@ -1,10 +1,12 @@
-package com.example.guest.congress;
+package com.example.guest.congress.ui;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.os.Bundle;
+
+import com.example.guest.congress.R;
 
 /**
  * Created by Guest on 11/9/15.
